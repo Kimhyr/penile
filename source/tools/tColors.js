@@ -1,0 +1,13 @@
+module.exports = {
+    BLACK: 0x23272A,
+    WHITE: 0xFFFFFF,
+    BLURPLE: 0x5865F2,
+    GREYPLE: 0x99AAB5,
+    DARK: 0x2C2F33,
+    DARK_GREY: 0x23272A,
+    GREEN: 0x57F287,
+    YELLOW: 0xFEE75C,
+    PINK: 0xEB459E,
+    PURPLE: 0x9b59b6,
+    RED: 0xED4245
+}

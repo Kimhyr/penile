@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\source",
+    "\\source\\commands",
+    "\\source\\commands\\admin",
+    "\\source\\commands\\debug",
+    "\\source\\commands\\player",
+    "\\source\\events",
+    "\\source\\handlers",
+    "\\source\\tools",
+    "\\source\\tools\\commands"
+  ],
+  "SelectedNode": "\\source\\commands\\debug\\ping.js",
+  "PreviewInSolutionExplorer": false
+}
