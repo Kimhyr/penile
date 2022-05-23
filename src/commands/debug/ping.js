@@ -1,11 +1,11 @@
-const colors = require("../../tools/tColors");
+const tColors = require("../../tools/tColors");
 
 module.exports = {
     name: "ping",
 
     async execute(c, m, a) {
         const embed = {
-            color: colors.BLURPLE,
+            color: tColors.BLURPLE,
             title: "Pong!"
         }
         
