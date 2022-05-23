@@ -3,8 +3,8 @@ const fs = require("fs");
 module.exports = {
     async execute(c) {
         console.log("\nEvents:");
-        fs.readdirSync("./source/events/").forEach(dir => {
-            const events = fs.readdirSync(`./source/events/${dir}`).filter(file => file.endsWith(".js"));
+        fs.readdirSync("./src/events/").forEach(dir => {
+            const events = fs.readdirSync(`./src/events/${dir}`).filter(file => file.endsWith(".js"));
 
             console.log(`\n./${dir}`);
             for (let file of events) {

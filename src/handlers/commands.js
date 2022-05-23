@@ -7,9 +7,9 @@ module.exports = {
         c.commands = new djs.Collection();
 
         console.log("\nCommands:");
-        fs.readdirSync("./source/commands/")
+        fs.readdirSync("./src/commands/")
             .forEach(dir => {
-                const commands = fs.readdirSync(`./source/commands/${dir}`)
+                const commands = fs.readdirSync(`./src/commands/${dir}`)
                     .filter(file => file.endsWith(".js"));
                 
                 console.log(`\n./${dir}`);
